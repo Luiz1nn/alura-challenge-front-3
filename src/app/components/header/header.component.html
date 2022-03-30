@@ -1,1 +1,19 @@
-<p>header works!</p>
+<header>
+  <section class="header__upper container">
+    <div class="logo__container">
+      <h1 class="header__logo">
+        <a [routerLink]="['/home']">
+          <img src="../../../assets/images/logo.svg" alt="Logotipo da AluraGeek">
+        </a>
+      </h1>
+      <div class="search__container">
+        <label for="search" class="sr-only"></label>
+        <input type="text" name="search" placeholder="O que deseja encontrar?" class="search__input">
+        <i class="icon-search search__icon"></i>
+      </div>
+    </div>
+    <a [routerLink]="['/login']" data-button-login>Login</a>
+    <i data-icon-search></i>
+    <i data-icon-search></i>
+  </section>
+</header>

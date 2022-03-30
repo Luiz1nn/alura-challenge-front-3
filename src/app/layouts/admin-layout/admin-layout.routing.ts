@@ -1,3 +1,7 @@
 import { Routes } from '@angular/router';
 
-export const AdminLayoutRoutes: Routes = [];
+import { MainComponent } from '@pages/main/main.component';
+
+export const AdminLayoutRoutes: Routes = [
+  { path: 'main', component: MainComponent }
+];

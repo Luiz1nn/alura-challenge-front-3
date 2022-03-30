@@ -1,0 +1,20 @@
+.products__title {
+  padding: 1rem 0;
+}
+
+@media (min-width: 650px) {
+  .product {
+    display: grid;
+    gap: 1rem;
+    padding: 2rem;
+    grid-template-columns: 1.1fr 1.9fr;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .product {
+    padding: 4rem 9.5rem 2rem 9.5rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}

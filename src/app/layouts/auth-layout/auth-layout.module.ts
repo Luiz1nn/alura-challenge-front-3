@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { AuthLayoutRoutes } from './auth-layout.routing';
 import { AuthLayoutComponent } from './auth-layout.component';
 import { RouterModule } from '@angular/router';
+import { ComponentsModule } from '@app/components/components.module';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(AuthLayoutRoutes)
+    RouterModule.forChild(AuthLayoutRoutes),
+    ComponentsModule
   ]
 })
 export class AuthLayoutModule { }

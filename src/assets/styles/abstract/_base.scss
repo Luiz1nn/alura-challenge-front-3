@@ -22,6 +22,14 @@ select {
   resize: none;
 }
 
+main {
+  background-color: $gray-100;
+}
+
+.container {
+  padding: 1rem;
+}
+
 .sr-only {
   &:not(:focus) {
     &:not(:active) {

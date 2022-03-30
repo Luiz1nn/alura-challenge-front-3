@@ -7,12 +7,16 @@ import { AdminLayoutComponent } from './admin-layout.component';
 
 import { MainComponent } from '@pages/main/main.component';
 import { ComponentsModule } from '@app/components/components.module';
+import { ListProductsComponent } from '@products/list-products/list-products.component';
+import { ProductComponent } from '@products/product/product.component';
 
 
 @NgModule({
   declarations: [
     AdminLayoutComponent,
-    MainComponent
+    MainComponent,
+    ListProductsComponent,
+    ProductComponent
   ],
   imports: [
     CommonModule,

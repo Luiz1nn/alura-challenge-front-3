@@ -20,9 +20,10 @@
       "dom"
     ],
     "paths": {
-      "@app/*": ["src/app/*"],
+      "@products/*": ["src/app/pages/products/*"],
       "@pages/*": ["src/app/pages/*"],
-      "@environments/*": ["src/environments/*"]
+      "@environments/*": ["src/environments/*"],
+      "@app/*": ["src/app/*"],
     }
   },
   "angularCompilerOptions": {

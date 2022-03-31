@@ -1,6 +1,6 @@
 # AluraGeek
 
-Challenge Front-End 3° Edição
+Alura Challenge Front-End 3° Edição
 
 Em Desenvolvimento... 🚧
 <div style="display=flex; justify-content=center">

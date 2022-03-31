@@ -5,10 +5,11 @@ import { RouterModule } from '@angular/router';
 import { AdminLayoutRoutes } from './admin-layout.routing';
 import { AdminLayoutComponent } from './admin-layout.component';
 
-import { MainComponent } from '@pages/main/main.component';
 import { ComponentsModule } from '@app/components/components.module';
+import { MainComponent } from '@pages/main/main.component';
 import { ListProductsComponent } from '@products/list-products/list-products.component';
 import { ProductComponent } from '@products/product/product.component';
+import { AddProductComponent } from '@products/add-product/add-product.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ProductComponent } from '@products/product/product.component';
     AdminLayoutComponent,
     MainComponent,
     ListProductsComponent,
-    ProductComponent
+    ProductComponent,
+    AddProductComponent
   ],
   imports: [
     CommonModule,

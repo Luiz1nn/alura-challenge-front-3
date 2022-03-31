@@ -1,9 +1,10 @@
 # AluraGeek
 
 Em Desenvolvimento... 🚧
-
-<img src="./src/assets/AluraGeek-login.png" width="500px">
-<img src="./src/assets/AluraGeek-main.png" width="500px">
+<div style="display=flex; justify-content=center">
+  <img src="./src/assets/AluraGeek-login.png" width="500px">
+  <img src="./src/assets/AluraGeek-main.png" width="500px">
+</div>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.16.
 

@@ -23,19 +23,10 @@
 
 .header__upper.search-active {
   .header__logo,
-  .header__login,
-  .header__search {
+  .header__login {
     display: none;
     opacity: 0;
     visibility: hidden;
-  }
-
-  .header__close {
-    display: flex;
-    opacity: 1;
-    visibility: visible;
-    justify-content: center;
-    font-size: 1.5rem;
   }
 
   .search__container {
@@ -65,14 +56,7 @@
   }
 }
 
-.header__search {
-  display: flex;
-  justify-content: center;
-  font-size: 1.5rem;
-}
-
-.search__container,
-.header__close {
+.search__container {
   display: none;
   opacity: 0;
   visibility: hidden;

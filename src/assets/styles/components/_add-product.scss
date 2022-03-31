@@ -44,19 +44,40 @@ header .header__login {
   color: $gray-200
 }
 
-.add-image__drop {
-  font-size: 2rem;
-  color: $gray-200;
+.add-product__name,
+.add-product__price {
+  position: relative;
+}
+
+.add-product__category {
+  padding: 1rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border-bottom: 1px solid $gray-200;
+
+  &:not(:valid) {
+    color: $gray-200;
+  }
+}
+
+.add-product__name input,
+.add-product__price input {
+  margin-bottom: 0;
+}
+
+.add-product__description {
+  padding: 1rem 0 0 0.75rem;
+}
+
+.add-product__button {
+  padding: 1rem 0;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 @media (min-width: 650px) {
   header .header__login {
     padding: 0.75rem 2rem;
-  }
-
-  .add-image__drop,
-  .add-product__add-image span {
-    display: inline-block;
   }
 
   .add-product__add-image {
@@ -82,11 +103,6 @@ header .header__login {
     color: $gray-300;
     text-align: center;
     line-height: 1.25rem;
-  }
-
-  .add-image__drop,
-  .add-product__add-image span {
-    display: inline-block;
   }
 
   .add-image__add-file {
@@ -137,6 +153,6 @@ header .header__login {
   }
 
   .add-image__button::after {
-    content: 'Procute no seu computador';
+    content: 'Procure no seu computador';
   }
 }
